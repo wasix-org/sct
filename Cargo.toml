@@ -1,8 +1,8 @@
 [package]
 name = "sct"
-version = "0.7.0"
+version = "0.7.1"
 edition = "2021"
-rust-version = "1.56"
+rust-version = "1.61"
 authors = ["Joseph Birr-Pixton <jpixton@gmail.com>"]
 description = "Certificate transparency SCT verification library"
 license = "Apache-2.0 OR ISC OR MIT"
@@ -13,5 +13,5 @@ categories = ["network-programming", "cryptography"]
 exclude = ["/admin/"]
 
 [dependencies]
-ring = { git = "https://github.com/wasix-org/ring.git", branch = "wasix" }
-untrusted = "0.7.0"
+ring = { git = "https://github.com/wasix-org/ring.git", branch = "0.17.7" }
+untrusted = "0.9.0"
